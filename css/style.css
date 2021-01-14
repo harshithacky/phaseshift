@@ -1,0 +1,196 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Navigation starts */
+
+
+
+.mynav{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+body > nav > div > div.navbar-header > a{
+    font-size: 1.5rem;
+}
+
+body > nav > div > div.navbar-header > a > span{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 2rem;
+    padding-right: 0.3rem;
+}
+
+/* Navigation ends */
+
+/* Banner starts */
+
+main{
+    background-image: url(../images/bg.jpg);
+    height: 230vh;
+    text-align: center;
+    color: white;
+}
+
+.banner p{
+    margin: 18rem auto 6rem;
+    font-size: 1.9rem;
+    width: 80%;
+    font-weight: 200;
+    
+}
+
+.banner p span{
+    font-weight: bold;
+}
+
+button{
+    background-color: #d84780;
+    border: none;
+    padding: 0.8rem 2.8rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+}
+
+/* Banner ends */
+
+/* Images starts */
+
+.images{
+    margin: 6rem 0;
+}
+
+.images .box{
+    margin-top: 4.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.images p{
+    color: gray;
+    margin: 4.5rem 0;
+}
+
+.images button{
+    margin-bottom: 4.5rem;
+    padding: 0.8rem 2rem;
+}
+
+
+/* Images ends */
+
+/* Services starts */
+
+.service{
+    margin-top: 10rem;
+    text-align: left;
+    
+}
+
+.service h2{
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin: 0 0 1rem 0;
+}
+
+.service p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.service-icon{
+    float: left;
+    width: 10%;
+}
+
+.service-icon span{
+    font-size: 35px;
+}
+
+.service-content{
+    float: left;
+    width: 80%;
+}
+
+
+/* Services ends */
+
+/* FOrm starts */
+
+.form{
+    padding: 5rem 0;
+    background: #d84780;
+    color: #fff;
+}
+
+.form h2{
+    font-weight: bolder;
+}
+
+.form form{
+    width: 70%;
+    margin: 6rem auto;
+}
+
+.form form button{
+    margin-top: 2rem;
+    border: 1px solid white;
+}
+
+/* FOrm ends */
+
+/* Footer starts */
+
+footer{
+    padding: 3rem 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer .social span{
+    margin: 0.8rem 0.5rem;
+    cursor: pointer;
+}
+
+footer .social span:hover{
+    color: #d84780;
+}
+
+/* Footer ends */
+
+
+/* Media Queries */
+
+@media only screen and (max-width:960px){
+    main{
+        height: 556vh;
+    }
+
+    .banner p{
+        
+        font-size: 1.2rem;
+        width: 100%;
+        
+        
+    }
+}
