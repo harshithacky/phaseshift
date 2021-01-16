@@ -44,7 +44,8 @@ body > nav > div > div.navbar-header > a > span{
 
 main{
     background-image: url(../images/bg.jpg);
-    height: 230vh;
+    background-attachment: fixed;
+    background-position: center top;
     text-align: center;
     color: white;
 }
@@ -182,15 +183,11 @@ footer .social span:hover{
 /* Media Queries */
 
 @media only screen and (max-width:960px){
-    main{
-        height: 556vh;
-    }
+    
 
     .banner p{
         
         font-size: 1.2rem;
         width: 100%;
-        
-        
     }
 }
